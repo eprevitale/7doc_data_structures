@@ -1,0 +1,23 @@
+LISTA ENCADEADA
+
+- Classe Nó (representando o paciente de um hospital)
+    - int ID
+    - str Nome
+    - str Condição
+    - proximoNo
+
+- Classe Lista (de Pacientes)
+    - Lista encadeada
+    - Adicionar pacientes 
+        - Instanciar classe Paciente
+        - Verificar se já existe algum nó na lista
+            - Se sim, o último nó (tail) deve apontar para o novo
+            - Se não, o novo nó será o primeiro (head)
+    - Remover pacientes 
+        - Verificar se existe um proximoNo 
+            - Se sim, o nó anterior deverá apontar para o proximoNo
+            - Se não, o nó anterior deverá apontar para None
+        - Excluir nó
+    - Listar todos os pacientes
+        - Percorrer a lista a partir do primeiro nó
+        - Utilizar loop ou recursividade?
